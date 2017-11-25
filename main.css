@@ -7,8 +7,19 @@ body {
   font-family: 'Parisienne', cursive;
 }
 
+.uk-navbar-container:not(.uk-navbar-transparent) {
+    background: #fff7f9;
+}
+
+.uk-logo {
+    font-size: 1.5rem;
+    font-family: 'Parisienne', cursive;
+    color: #666;
+    text-decoration: none;
+}
+
 .brief {
-  padding-top: 150px;
+  padding-top: 120px;
   padding-bottom: 150px;
   padding-right: 100px;
   padding-left: 100px;
