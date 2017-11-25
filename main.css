@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Parisienne');
+
+
+body {
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  font-family: 'Parisienne', cursive;
+}
+
+.brief {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  padding-right: 100px;
+  padding-left: 100px;
+  font-family: 'Parisienne', cursive;
+  font-size: 1.8rem;
+  color: #212121;
+  background-color: #fff7f9;
+}
+
+.brief2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 10px;
+  padding-left: 10px;
+  font-family: 'Parisienne', cursive;
+  font-size: 1.6rem;
+  color: #212121;
+  background-color: #fff7f9;
+}
