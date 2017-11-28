@@ -45,3 +45,11 @@ body {
     color: #666;
     text-decoration: none;
 }
+
+.button-love {
+  margin-right: 10px;
+  text-transform: lowercase;
+  font-size: 1.5rem;
+  border-radius: 4px;
+  padding: 0 20px;
+}
