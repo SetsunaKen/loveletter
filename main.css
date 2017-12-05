@@ -7,7 +7,7 @@
     padding-right: 2px;
     padding-left: 2px;
     font-family: 'Clicker Script', cursive;
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #212121;
     background-color: lavenderblush;
   }
@@ -53,7 +53,7 @@ body {
 }
 
 .text-small {
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 1.5;
 }
 
@@ -68,6 +68,7 @@ body {
     font-family: 'Clicker Script', cursive;
     color: #666;
     text-decoration: none;
+    height: 60px;
 }
 
 .uk-button-danger {
