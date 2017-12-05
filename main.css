@@ -1,29 +1,47 @@
-@import url('https://fonts.googleapis.com/css?family=Parisienne');
+@import url('https://fonts.googleapis.com/css?family=Clicker+Script');
 
 @media screen and (max-width: 780px){
   .brief {
-    padding-top: 50px;
+    padding-top: 30px;
     padding-bottom: 50px;
-    padding-right: 15px;
-    padding-left: 15px;
-    font-family: 'Parisienne', cursive;
-    font-size: 1.5rem;
+    padding-right: 2px;
+    padding-left: 2px;
+    font-family: 'Clicker Script', cursive;
+    font-size: 1.2rem;
     color: #212121;
-    background-color: #fff7f9;
+    background-color: lavenderblush;
+  }
+
+  .rahmen {
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.02);
+    background-color: ivory;
   }
 
 }
 
 @media screen and (min-width: 780px){
   .brief {
-    padding-top: 120px;
+    padding-top: 80px;
     padding-bottom: 120px;
     padding-right: 80px;
     padding-left: 80px;
-    font-family: 'Parisienne', cursive;
+    font-family: 'Clicker Script', cursive;
     font-size: 1.8rem;
     color: #212121;
-    background-color: #fff7f9;
+    background-color: lavenderblush;
+  }
+
+  .rahmen {
+    padding-top: 50px;
+    padding-left: 60px;
+    padding-right: 60px;
+    padding-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.02);
+    background-color: ivory;
   }
 
 }
@@ -31,17 +49,23 @@
 body {
   -webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-  font-family: 'Parisienne', cursive;
+  font-family: 'Clicker Script', cursive;
+}
+
+.text-small {
+    font-size: 1.2rem;
+    line-height: 1.5;
 }
 
 .uk-navbar-container:not(.uk-navbar-transparent) {
-    background: #fff7f9;
-    border-bottom: 1px solid #c1c1c1;
+    background: lavenderblush;
+    height: 60px;
+
 }
 
 .uk-logo {
     font-size: 1.5rem;
-    font-family: 'Parisienne', cursive;
+    font-family: 'Clicker Script', cursive;
     color: #666;
     text-decoration: none;
 }
